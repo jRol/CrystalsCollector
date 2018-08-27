@@ -1,0 +1,124 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+
+    position: relative;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 16px;
+    line-height: 24px;
+    background: url("../images/background.png");
+}
+
+h1 {
+
+    font-size: 32px;
+    line-height: 32px;
+}
+
+p {
+
+    margin-bottom: 20px;
+
+}
+
+p:last-child {
+
+    margin-bottom: 0;
+}
+
+#main-container {
+
+    margin: 10px;
+}
+
+.header {
+
+    width: 300px;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #ffffff;
+    background: #FFA500;
+}
+
+.instructions {
+
+    max-width: 600px;
+    margin-bottom: 10px;
+    padding: 20px;
+    color: #006400;
+    background: #D2B48C;
+}
+
+.random-score-container {
+
+    display: flex;
+}
+
+#random-number {
+
+    float: left;
+    width: 250px;
+    height: 125px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    font-size: 28px;
+    background: #3CB371;
+}
+
+#wins-losses {
+
+    float: left;
+    width: 200px;
+    margin-bottom: 10px;
+    padding: 20px;
+    background: #00FFFF;
+}
+
+.frame {
+    
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background: white;
+}
+
+.crystal {
+
+    width: 100%;
+}
+
+#score-title {
+
+    clear: both;
+    width: 250px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    color: #ffffff;
+    background: #0dbab1;    
+}
+
+#player-score {
+
+    width: 250px;
+    height: 125px;
+    margin-right: 10px;
+    padding: 20px;
+    font-size: 28px;
+    color: #ffffff;
+    background: #0dbab1; 
+
+}
+
+.clearfix {
+    
+    content: "";
+    clear: both;
+    display: table;
+}
